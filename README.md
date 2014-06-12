@@ -8,11 +8,11 @@ just include like this:
 
     (function (root, factory) {
         if (typeof define === 'function' && define.amd){
-            define(['b'], factory);
+            define(['jquery'], factory);
         } else if (typeof exports === 'object'){
-            module.exports = factory(require('b'));
+            module.exports = factory(require('jquery-with-dom'));
         } else {
-            root.returnExports = factory(root.b);
+            root.jQuery = factory(root.$ || root.jQuery);
         }
     }(this, function ($) {
         $.ready(function(jQuery){
