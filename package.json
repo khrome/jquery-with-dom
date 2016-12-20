@@ -1,7 +1,7 @@
 {
     "name": "jquery-with-dom",
     "homepage": "https://github.com/khrome/jquery-with-dom",
-    "version": "0.0.2",
+    "version": "1.0.0",
     "main": "jquery-shim.js",
     "description": "jquery (including a DOM in node) for UMD modules",
     "keywords": [
