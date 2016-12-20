@@ -1,6 +1,10 @@
 jquery-with-dom.js
 ==================
 
+[![NPM version](https://img.shields.io/npm/v/jquery-with-dom.svg)]()
+[![npm](https://img.shields.io/npm/dt/jquery-with-dom.svg)]()
+[![Travis](https://img.shields.io/travis/khrome/jquery-with-dom.svg)]()
+
 I don't want what the jquery npm gives me, and I don't want a custom install, so export an instance of jQuery from jsdom, so it can do dom manipulation and selection, this is much more what I need for building and testing UMD modules.
 
 just include like this:
